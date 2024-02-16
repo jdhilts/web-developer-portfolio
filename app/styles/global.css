@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+:root {	
+	--portfolio-color-1: #403F49;
+	--portfolio-color-2: #5DB0DB;
+	--portfolio-color-3: #809AB1;
+	--portfolio-color-4: #F2F3F3;
+	--portfolio-color-5: #7A6864;
+}
+
+
+
+*,
+::before,
+::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	width: 100%;
+	height: 100vh;
+	font-family: "Montserrat";
+	overflow-x: hidden;
+}
+
+navbar {
+	width: 100%;
+	min-width: 375px;
+	height: 85px;
+	display: block;
+	background-color: var(--portfolio-color-1);
+	border-bottom: 1px solid black;
+	position: fixed;
+	box-shadow: 0 1px 3px 0 black;
+}
+
+ul {
+	text-align: right;
+	width: 100%;
+	min-width: 375px;
+	margin: 0;
+	padding-top: 25px;
+	padding-left: 10px;
+}
+
+li {
+	display: inline;
+	list-style: none;
+	font-size: 1.5em;
+	font-weight: 200;
+	padding-right: 20px;
+}
+
+a {
+	color: var(--portfolio-color-4);
+	text-decoration: none;
+	padding: 10px;
+}
+
+a:hover {
+	background-color: var(--portfolio-color-3);
+	border-color: var(--portfolio-color-3);
+}
+
+#about {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: calc(100vh + 85px);
+	max-width: 100%;
+	min-width: 375px;
+	background-color: var(--portfolio-color-3);
+	padding-bottom: 20px;
+	margin-top: 80px;
+	border-bottom: 1px solid black;
+}
+
+h1 {
+	width: 100%;
+	min-width: 375px;
+	text-align: center;
+	margin: 5px 0;
+	font-weight: 500;
+}
+
+h2 {
+	width: 100%;
+	min-width: 375px;
+	text-align: center;
+	margin: 5px 0;
+	font-weight: 300;
+}
+
+#profile-photo {
+	width: 300px;
+	height: 300px;	
+	object-fit: cover;
+	border: solid 5px var(--portfolio-color-1);
+	border-radius: 180px;
+}
+
+#photo-border2 {
+	width: auto;
+	height: 310px;
+	border-radius: 180px;
+	border: solid 5px var(--portfolio-color-3);
+}
+
+#photo-border3 {
+	margin-top: 20px;
+	width: auto;
+	height: 320px;
+	border-radius: 180px;
+	border: solid 5px var(--portfolio-color-4);
+}
+
+#about-james {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 375px;
+	height: auto;
+	min-width: 375px;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+#projects {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: auto;
+	min-width: 375px;
+	padding-top: 20px;
+	height: auto;
+	background-color: var(--portfolio-color-1);
+	color: var(--portfolio-color-4);
+	padding-bottom: 40px;
+	border-bottom: solid 1px black;
+	box-shadow: 0 1px 3px 0px black inset;
+
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--portfolio-color-3);
+	width: auto;
+	padding: 20px;
+	min-width: 375px;
+	height: auto;
+	margin-top: 40px;
+	border-radius: 5px;
+	border: solid 0.5px black;
+	box-shadow: 0 1px 3px 0 black;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: auto;
+	height: auto;
+	background-color: var(--portfolio-color-1);
+	margin: 10px;
+	border: solid 0.5px var(--portfolio-color-1);
+	border-radius: 5px;
+	box-shadow: 0 1px 3px 0 black;	
+}
+
+#project-img {
+	width: 200px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 5px;
+	border: solid 0.5 black;
+	margin: 10px;
+}
+
+#project-desciption {
+	width: 200px;
+	text-align: center;
+	padding: 10px;
+}
+
+#contact-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+}
+
+#contact {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+	min-width: 375px;
+	height: auto;
+	background-color: var(--portfolio-color-3);
+	box-shadow: 0 1px 3px 0px black inset;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#linked-in {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+	min-width: 375px;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: black;
+}
+
+#icons {
+	color: black;
+	text-align: center;
+}
+
+#icons-section {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	min-width: 375px;
+	height: auto;
+}
+
+#footer {
+	width: 100%;
+	min-width: 375px;
+	height: auto;
+	text-align: left;
+	color: white;
+	background-color: var(--portfolio-color-1);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	box-shadow: 0 1px 3px 0px black inset;
+}
+
+
+
