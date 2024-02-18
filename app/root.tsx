@@ -7,7 +7,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import NavBar from '~/components/NavBar';
+import Navbar from '~/components/Navbar';
 import styles from '~/styles/global.css';
 
 export const links: LinksFunction = () => {
@@ -24,7 +24,7 @@ export default function App() {
         <Links />
       </head>
       <body>
-      <NavBar />
+      <Navbar />
         <Outlet />
         <ScrollRestoration />
         <Scripts />
