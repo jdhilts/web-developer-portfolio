@@ -96,6 +96,8 @@ h2 {
 
 #profile-photo {
 	width: 300px;
+	min-width: 150px;
+	min-height: 150px;
 	height: 300px;	
 	object-fit: cover;
 	border: solid 5px var(--portfolio-color-1);
