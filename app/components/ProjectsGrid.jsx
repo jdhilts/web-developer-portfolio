@@ -18,7 +18,7 @@ export default function ProjectsGrid() {
 		<a href="">
 		<div className="card">
 		<img id="project-img" src="images/technical-document.jpg" alt="Technical Document"/>
-		<p id="project-desciption">Technical Document for CSS Layout</p>
+		<p id="project-desciption">Technical Document</p>
 		</div>
 		</a>
 		</div>

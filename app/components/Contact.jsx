@@ -30,7 +30,7 @@ export default function Contact(){
 		<a href="">
 		<div id="icons">
 		<img src="/images/twitter.png" alt="X" />
-		<p><br/>Twitter</p>
+		<p><br/>x.com</p>
 		</div>
 		</a>
 		<a href="">

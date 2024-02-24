@@ -8,8 +8,6 @@
 	--portfolio-color-5: #7A6864;
 }
 
-
-
 *,
 ::before,
 ::after {
@@ -20,6 +18,7 @@
 
 body, html {
 	width: 100%;
+	height: 100lvh;
 	font-family: "Montserrat";
 	overflow-x: hidden;
 }
@@ -68,12 +67,12 @@ a:hover {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: auto;	
-	width: 100%;
+	height: cal(100lvh - 100px);	
 	min-width: 375px;
 	background-color: var(--portfolio-color-3);
 	border-bottom: 1px solid black;
 	padding-top: 100px;
+	padding-bottom: 45px;
 }
 
 h1 {
@@ -96,7 +95,7 @@ h2 {
 	width: 300px;
 	height: 300px;	
 	object-fit: cover;
-	border: solid 5px var(--portfolio-color-1);
+	border: solid 5px var(--portfolio-color-4);
 	border-radius: 180px;
 }
 
@@ -112,7 +111,7 @@ h2 {
 	width: auto;
 	height: 320px;
 	border-radius: 180px;
-	border: solid 5px var(--portfolio-color-4);
+	border: solid 5px var(--portfolio-color-1);
 }
 
 #about-james {
@@ -121,12 +120,14 @@ h2 {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	text-align: center;
-	width: 375px;
+	text-align: justify;
+	max-width: 520px;
 	height: auto;
 	min-width: 375px;
 	margin-top: 20px;
-	padding: 10px;
+	padding: 20px;
+	border: solid 2px var(--portfolio-color-1);
+	border-radius: 30px;
 }
 
 #projects {
@@ -172,22 +173,25 @@ h2 {
 	margin: 10px;
 	border: solid 0.5px var(--portfolio-color-1);
 	border-radius: 5px;
-	box-shadow: 0 1px 3px 0 black;	
+	box-shadow: 0 1px 3px 0 black;
+	padding-bottom: 10px;	
 }
 
 #project-img {
-	width: 200px;
-	height: 300px;
+	width: 300px;
+	height: 400px;
 	object-fit: cover;
 	border-radius: 5px;
-	border: solid 0.5 black;
+	border: solid 2px black;
 	margin: 10px;
 }
 
 #project-desciption {
-	width: 200px;
+	width: 300px;
 	text-align: center;
 	padding: 10px;
+	border: solid 2px black;
+	border-radius: 10px;
 }
 
 #contact-header {

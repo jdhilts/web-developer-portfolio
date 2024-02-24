@@ -16,9 +16,11 @@ export default function About(){
 		</div>
 
 		<div id="about-james">
-		<p>A dedicated self-taught full-stack web developer passionate about designing, creating, and problem-solving in web development. Experience with JavaScript, CSS, the React library and database design. Eager to learn and problem-solve within a team environment.</p>
+		<p>A dedicated self-taught full-stack web developer passionate about designing, creating, and problem-solving in web development.
+	    Experience with JavaScript, CSS, the React library and database design. Eager to learn and problem-solve within a team environment.
+	    </p>
 		</div>
 		</section>
 		</>
 		);
-}
+} 
