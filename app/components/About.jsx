@@ -2,12 +2,12 @@ export default function About(){
 	return(
 		<>
 		<section id="about">
-
+		<div id="greeting">
 		<h1>Welcome!</h1>
 		<h2>I am</h2>
 		<h1>James Hilts</h1>
 		<h2>A Full Stack Web Developer and Designer</h2>
-
+		</div>
 
 		<div id="photo-border3">
 		<div id="photo-border2">
