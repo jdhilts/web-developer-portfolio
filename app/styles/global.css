@@ -67,7 +67,7 @@ a:hover {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: cal(100lvh - 100px);	
+	height: auto;
 	min-width: 375px;
 	background-color: var(--portfolio-color-3);
 	border-bottom: 1px solid black;
@@ -75,19 +75,19 @@ a:hover {
 	padding-bottom: 45px;
 }
 
-h1 {
+h1, h2 {
 	width: 100%;
 	min-width: 375px;
 	text-align: center;
 	margin: 5px 0;
+	
+}
+
+h1 {
 	font-weight: 500;
 }
 
 h2 {
-	width: 100%;
-	min-width: 375px;
-	text-align: center;
-	margin: 5px 0;
 	font-weight: 300;
 }
 
@@ -154,9 +154,9 @@ h2 {
 	justify-content: center;
 	background-color: var(--portfolio-color-3);
 	width: auto;
-	padding: 20px;
-	min-width: 375px;
 	height: auto;
+	padding: 20px;
+	min-width: 375px;	
 	margin-top: 40px;
 	border-radius: 5px;
 	border: solid 0.5px black;
@@ -259,7 +259,7 @@ h2 {
 	box-shadow: 0 1px 3px 0px black inset;
 }
 
-@media only screen and (orientation: landscape) {
+@media screen and (max-width: 800px) and (min-width: 375px) {
 
 	h1, h2 {
 		font-size: 18px;
@@ -303,7 +303,28 @@ h2 {
 		font-size: 12px;
 		padding: 20px;
 		width: 600px;
+		margin-right: 10px;
+		margin-left: 10px;
 	}
+
+	#project-img {
+		width: 150px;
+		height: 200px;
+		object-fit: cover;
+		border-radius: 2.5px;
+		border: solid 1px black;
+		margin: 10px;
+	}
+
+	#project-desciption {
+		width: 150px;
+		text-align: center;
+		padding: 10px;
+		border: solid 1px black;
+		border-radius: 5px;
+		font-size: 12px;
+	}
+
 }
 
 
