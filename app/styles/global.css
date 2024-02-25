@@ -25,7 +25,7 @@ body, html {
 
 navbar {
 	width: 100%;
-	min-width: 375px;
+	min-width: 360px;
 	height: 80px;
 	display: block;
 	background-color: var(--portfolio-color-1);
@@ -37,7 +37,7 @@ navbar {
 ul {
 	text-align: right;
 	width: 100%;
-	min-width: 375px;
+	min-width: 360px;
 	margin: 0;
 	margin-top: 25px;
 	padding-left: 10px;
@@ -68,7 +68,7 @@ a:hover {
 	align-items: center;
 	justify-content: center;
 	height: auto;
-	min-width: 375px;
+	min-width: 360px;
 	background-color: var(--portfolio-color-3);
 	border-bottom: 1px solid black;
 	padding-top: 100px;
@@ -77,7 +77,7 @@ a:hover {
 
 h1, h2 {
 	width: 100%;
-	min-width: 375px;
+	min-width: 360px;
 	text-align: center;
 	margin: 5px 0;
 	
@@ -123,7 +123,7 @@ h2 {
 	text-align: justify;
 	max-width: 520px;
 	height: auto;
-	min-width: 375px;
+	min-width: 360px;
 	margin-top: 20px;
 	padding: 20px;
 	border: solid 2px var(--portfolio-color-1);
@@ -136,7 +136,7 @@ h2 {
 	align-items: center;
 	justify-content: center;
 	width: auto;
-	min-width: 375px;
+	min-width: 360px;
 	padding-top: 20px;
 	height: auto;
 	background-color: var(--portfolio-color-1);
@@ -156,7 +156,7 @@ h2 {
 	width: auto;
 	height: auto;
 	padding: 20px;
-	min-width: 375px;	
+	min-width: 360px;	
 	margin-top: 40px;
 	border-radius: 5px;
 	border: solid 0.5px black;
@@ -209,7 +209,7 @@ h2 {
 	justify-content: center;
 	flex-wrap: wrap;
 	width: 100%;
-	min-width: 375px;
+	min-width: 360px;
 	height: auto;
 	background-color: var(--portfolio-color-3);
 	box-shadow: 0 1px 3px 0px black inset;
@@ -224,7 +224,7 @@ h2 {
 	justify-content: center;
 	flex-wrap: wrap;
 	width: 100%;
-	min-width: 375px;
+	min-width: 360px;
 	height: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -242,13 +242,13 @@ h2 {
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	min-width: 375px;
+	min-width: 360px;
 	height: auto;
 }
 
 #footer {
 	width: 100%;
-	min-width: 375px;
+	min-width: 360px;
 	height: auto;
 	text-align: left;
 	color: white;
@@ -324,6 +324,7 @@ h2 {
 		border-radius: 5px;
 		font-size: 12px;
 	}
+
 
 }
 
