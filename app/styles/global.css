@@ -274,6 +274,10 @@ h2 {
 	 	font-size: 20px;
 	 }
 
+	 #about {
+	 	height: 100lvh;
+	 }
+
 
 /*	#about {
 		display: flex;
