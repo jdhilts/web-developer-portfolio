@@ -263,20 +263,20 @@ h2 {
 @media (max-width: 600px) {
 
 	h1 {
-	font-size: 22px; 
-	 }
+		font-size: 22px; 
+	}
 
-	 h2 {
-	 	font-size: 18px;
-	 }
+	h2 {
+		font-size: 18px;
+	}
 
-	 a {
-	 	font-size: 20px;
-	 }
+	a {
+		font-size: 20px;
+	}
 
-	 #about {
-	 	height: 100lvh;
-	 }
+	#about {
+		height: 100lvh;
+	}
 
 
 /*	#about {
@@ -318,6 +318,55 @@ h2 {
 		padding: 20px;
 		width: 310px;
 	}
+}
+
+@media (min-width: 600px){
+
+	h1 {
+		font-size: 22px; 
+	}
+
+	h2 {
+		font-size: 18px;
+	}
+
+	a {
+		font-size: 20px;
+	}
+
+	#about {
+		height: 100lvh;
+	}
+
+	#profile-photo {
+		width: 150px;
+		height: 150px;	
+		object-fit: cover;
+		border: solid 2.5px var(--portfolio-color-4);
+		border-radius: 90px;
+	}
+
+	#photo-border2 {
+		width: auto;
+		height: 155px;
+		border-radius: 90px;
+		border: solid 2.5px var(--portfolio-color-3);
+	}
+
+	#photo-border3 {
+		margin-top: 10px;
+		width: auto;
+		height: 160px;
+		border-radius: 90px;
+		border: solid 2.5px var(--portfolio-color-1);
+	}
+
+	#about-james {
+		font-size: 14px;
+		padding: 20px;
+		width: 400px;
+	}
+
 }
 
 
