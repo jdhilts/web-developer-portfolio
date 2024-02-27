@@ -378,7 +378,6 @@ h2 {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-/*		padding-top: 160px;*/
 		padding-bottom: 180px;
 	}
 
@@ -414,6 +413,25 @@ h2 {
 		padding: 20px;
 		width: 600px;
 	}
+
+	#project-img {
+		width: 150px;
+		height: 250px;
+		object-fit: cover;
+		border-radius: 5px;
+		border: solid 2px black;
+		margin: 10px;
+	}
+
+	#project-desciption {
+		width: 150px;
+		text-align: center;
+		padding: 10px;
+		border: solid 2px black;
+		border-radius: 10px;
+		font-size: 15px;
+	}
+
 }
 
 
