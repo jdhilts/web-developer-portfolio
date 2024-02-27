@@ -432,6 +432,17 @@ h2 {
 		font-size: 15px;
 	}
 
+	#contact {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	#icons-section {
+		width: 50%;
+	}
+
+
 }
 
 
