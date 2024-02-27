@@ -371,14 +371,14 @@ h2 {
 	}
 
 	#about {
-		height: 100lvh;
+		height: calc(100lvh + 80px);
 	}
 
 	#about {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		padding-top: 160px;
+/*		padding-top: 160px;*/
 		padding-bottom: 180px;
 	}
 
