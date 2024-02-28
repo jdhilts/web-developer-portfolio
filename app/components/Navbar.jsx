@@ -10,7 +10,7 @@ export default function NavBar(){
 		<Link to="#about">About</Link><
 		/li>
 		<li>
-		<Link to="#projects">Projects</Link>
+		<Link to="#projects">Work</Link>
 		</li>
 		<li>
 		<Link to="#contact">Contact</Link>
