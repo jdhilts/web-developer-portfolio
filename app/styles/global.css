@@ -365,7 +365,7 @@ h2 {
 
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
 	h1 {
 		font-size: 22px; 
 	}
@@ -420,8 +420,8 @@ h2 {
 	}
 
 	#project-img {
-		width: 150px;
-		height: 250px;
+		width: 200px;
+		height: 300px;
 		object-fit: cover;
 		border-radius: 5px;
 		border: solid 2px black;
@@ -429,7 +429,7 @@ h2 {
 	}
 
 	#project-desciption {
-		width: 150px;
+		width: 200px;
 		text-align: center;
 		padding: 10px;
 		border: solid 2px black;
@@ -438,7 +438,7 @@ h2 {
 	}
 
 	.flex-container {
-		width: auto;	
+		width: 85%;	
 	}
 
 	#contact {
