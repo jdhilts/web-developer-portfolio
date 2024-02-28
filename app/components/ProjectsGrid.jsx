@@ -3,16 +3,17 @@
 export default function ProjectsGrid() {
 	return(
 		<div className="flex-container">
+		<h1>Here are some of my projects</h1>
 		<a href="">
 		<div className="card">
 		<img  id="project-img" src="images/penguin.png" alt="Penguin Waving Scene"/>
-		<p id="project-desciption">Pengiun waving animation</p>
+		<p id="project-desciption">Pengiun Waving</p>
 		</div>
 		</a>
 		<a href="">
 		<div className="card">
 		<img id="project-img" src="images/jhilts-landing-page.jpg" alt="Landing Page For J Hilts"/>
-		<p id="project-desciption">Landing page for J Hilts</p>
+		<p id="project-desciption">Landing Page</p>
 		</div>
 		</a>
 		<a href="">
