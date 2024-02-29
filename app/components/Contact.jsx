@@ -24,7 +24,7 @@ export default function Contact(){
 		</div>
 		</Link>
 
-		<Link href="mailto:jameshilts@icloud.com">
+		<Link to="mailto:jameshilts@icloud.com">
 		<div id="icons">
 		<img src="/images/email.png" alt="Email" />
 		<p><br/>Email</p>
