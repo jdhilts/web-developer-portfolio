@@ -24,12 +24,12 @@ export default function Contact(){
 		</div>
 		</Link>
 
-		<a href="mailto:jameshilts@icloud.com">
+		<Link href="mailto:jameshilts@icloud.com">
 		<div id="icons">
 		<img src="/images/email.png" alt="Email" />
 		<p><br/>Email</p>
 		</div>
-		</a>
+		</Link>
 
 		<Link href="">
 		<div id="icons">
