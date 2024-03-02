@@ -8,16 +8,16 @@ export default function Contact(){
 		<h1>Lets Work Together...</h1>
 		<p>How do you like your coffee?</p>
 		</div>
-
-		<Link href="">
+		<div id="icons-section">
+		<Link href="www.linkedin.com/in/james-hilts-b348a23b">
 		<div id="linked-in">
 		<img src="/images/linkedin.png" alt="LinkedIn Icon "/>
 		<p><br/>LinkedIn</p>
 		</div>
 		</Link>
 
-		<div id="icons-section">
-		<Link href="">
+		
+		<Link to="tel:5102824086">
 		<div id="icons">
 		<img src="/images/call.png" alt="Call" />
 		<p><br/>Call</p>
@@ -31,7 +31,7 @@ export default function Contact(){
 		</div>
 		</Link>
 
-		<Link href="">
+		{/*<Link href="">
 		<div id="icons">
 		<img src="/images/twitter.png" alt="X" />
 		<p><br/>x.com</p>
@@ -43,7 +43,8 @@ export default function Contact(){
 		<img src="/images/meta.png" alt="Meta" />
 		<p><br/>Meta</p>
 		</div>
-		</Link>
+		</Link>*/}
+
 		</div>
 		</section>
 		</>
