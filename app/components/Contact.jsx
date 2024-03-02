@@ -9,7 +9,7 @@ export default function Contact(){
 		<p>How do you like your coffee?</p>
 		</div>
 		<div id="icons-section">
-		<Link href="www.linkedin.com/in/james-hilts-b348a23b">
+		<Link to="www.linkedin.com/in/james-hilts-b348a23b">
 		<div id="linked-in">
 		<img src="/images/linkedin.png" alt="LinkedIn Icon "/>
 		<p><br/>LinkedIn</p>
