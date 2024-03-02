@@ -328,8 +328,8 @@ h2 {
 	min-width: 320px;
 	padding-top: 20px;
 	height: auto;
-	background-color: var(--portfolio-color-1);
-	color: var(--portfolio-color-4);
+	background-color: var(--portfolio-color-4);
+	color: black;
 	padding-bottom: 40px;
 	border-bottom: solid 1px black;
 	box-shadow: 0 1px 3px 0px black inset;
@@ -526,6 +526,15 @@ h2 {
 	width: 100%;
 	min-width: 320px;
 	height: auto;
+}
+
+@media (max-width: 479px) {
+	#icons-section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
 }
 
 @media (min-width: 769px){
