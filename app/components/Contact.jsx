@@ -8,25 +8,26 @@ export default function Contact(){
 		<h1>Lets Work Together...</h1>
 		<p>How do you like your coffee?</p>
 		</div>
+
 		<div id="icons-section">
 		<Link to="http://www.linkedin.com/in/james-hilts-b348a23b">
-		<div id="linked-in">
-		<img src="/images/linkedin.png" alt="LinkedIn Icon "/>
+		<div className="icons">
+		<img src="/images/LinkedIn.png" alt="LinkedIn Icon "/>
 		<p><br/>LinkedIn</p>
 		</div>
 		</Link>
 
 		
 		<Link to="tel:5102824086">
-		<div id="icons">
-		<img src="/images/call.png" alt="Call" />
+		<div className="icons">
+		<img src="/images/CallMe.png" alt="Call" />
 		<p><br/>Call</p>
 		</div>
 		</Link>
 
 		<Link to="mailto:jameshilts@icloud.com">
-		<div id="icons">
-		<img src="/images/email.png" alt="Email" />
+		<div className="icons">
+		<img src="/images/EmailMe.png" alt="Email" />
 		<p><br/>Email</p>
 		</div>
 		</Link>
