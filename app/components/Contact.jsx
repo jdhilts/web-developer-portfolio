@@ -12,7 +12,7 @@ export default function Contact(){
 		<div id="icons-section">
 		<Link to="http://www.linkedin.com/in/james-hilts-b348a23b">
 		<div className="icons">
-		<img src="/images/Linkedin.png" alt="LinkedIn Icon "/>
+		<img src="/images/LinkedIn.png" alt="LinkedIn Icon "/>
 		<p><br/>LinkedIn</p>
 		</div>
 		</Link>
