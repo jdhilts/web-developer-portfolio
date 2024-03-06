@@ -489,12 +489,19 @@ h2 {
 	}
 }
 /*--------------------------------------------------*/
-/*All #icons styling and media queries.*/
+/*All #icons styling.*/
 .icons {
 	color: black;
 	text-align: center;
 }
 /*------------------------------------------*/
+/*Icon attributions styles.*/
+.attribution {
+	font-size: 12px;
+}
+.link_pro {
+	font-size: 12px;
+}
 /*All #icons-section styling and media queries.*/
 #icons-section {
 	display: flex;

@@ -14,6 +14,9 @@ export default function Contact(){
 		<div className="icons">
 		<img src="/images/LinkedIn.png" alt="LinkedIn Icon "/>
 		<p><br/>LinkedIn</p>
+		<p className="attribution">LinkIn Icon by</p> <a className="link_pro" href="https://freeicons.io/essential-web-1/linkedin-social-media-logo-website-icon-40217">BECRIS on</a>
+		
+		<a className="attribution" href="https://freeicons.io">freeicons.io</a>
 		</div>
 		</Link>
 
