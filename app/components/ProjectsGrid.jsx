@@ -1,15 +1,15 @@
-
+import { Link } from '@remix-run/react';
 
 export default function ProjectsGrid() {
 	return(
 		<div className="flex-container">
 		<h1>Here are some of my projects</h1>
-		<a href="">
+		<Link to="https://seahorse-app-a6kdz.ondigitalocean.app/">
 		<div className="card">
 		<img  id="project-img" src="images/penguin.png" alt="Penguin Waving Scene"/>
 		<p id="project-desciption">Pengiun Waving</p>
 		</div>
-		</a>
+		</Link>
 		<a href="">
 		<div className="card">
 		<img id="project-img" src="images/jhilts-landing-page.jpg" alt="Landing Page For J Hilts"/>
