@@ -4,7 +4,7 @@ export default function ProjectsGrid() {
 	return(
 		<div className="flex-container">
 		<h1>Here are some of my projects</h1>
-		<Link href="https://seahorse-app-a6kdz.ondigitalocean.app/">
+		<Link to="https://seahorse-app-a6kdz.ondigitalocean.app/">
 		<div className="card">
 		<img  id="project-img" src="images/penguin.png" alt="Penguin Waving Scene"/>
 		<p id="project-desciption">Pengiun Waving</p>
@@ -16,7 +16,7 @@ export default function ProjectsGrid() {
 		<p id="project-desciption">Landing Page</p>
 		</div>
 		</Link>
-		<Link href="https://oyster-app-ctd42.ondigitalocean.app/">
+		<Link to="https://oyster-app-ctd42.ondigitalocean.app/">
 		<div className="card">
 		<img id="project-img" src="images/technical-document.jpg" alt="Technical Document"/>
 		<p id="project-desciption">Technical Document</p>
