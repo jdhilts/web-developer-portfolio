@@ -19,7 +19,7 @@ export default function ProjectsGrid() {
 		<Link to="https://oyster-app-ctd42.ondigitalocean.app/">
 		<div className="card">
 		<img id="project-img" src="images/technical-document.jpg" alt="Technical Document"/>
-		<p id="project-desciption">Technical Document</p>
+		<p id="project-desciption">Responsive CSS</p>
 		</div>
 		</Link>
 		</div>

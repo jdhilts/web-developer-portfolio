@@ -11,7 +11,7 @@ export default function About(){
 
 		<div id="photo-border3">
 		<div id="photo-border2">
-		<img id="profile-photo" src="images/IMG_0833.JPG" alt="James Hilts" />
+		<img id="profile-photo" src="images/profile-photo.png" alt="James Hilts" />
 		</div>
 		</div>
 
